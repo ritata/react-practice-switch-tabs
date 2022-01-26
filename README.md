@@ -1,2 +1,2 @@
-# react-practice-switch-tabs
+# react-practice
 Created with CodeSandbox

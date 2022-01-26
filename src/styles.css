@@ -1,0 +1,92 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  /* border: 1px solid; */
+  border-color: red;
+  position: relative;
+  width: 1280px;
+  height: 700px;
+}
+
+.Profile {
+  position: absolute;
+  border-color: blueviolet;
+  height: 500px;
+  width: 300px;
+  top: 90px;
+  left: 80px;
+}
+
+.Avatar {
+  position: absolute;
+  border-radius: 200px;
+  width: 100%;
+}
+
+.UserInfo {
+  /* border: 1px solid; */
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  bottom: 16%;
+}
+
+.UserInfo .UserName {
+  color: #666666;
+  font-size: 20px;
+}
+
+.UserInfo ul {
+  /* border: 1px solid; */
+  font-size: 14px;
+}
+
+.Repos {
+  position: absolute;
+  /* border: 1px solid; */
+  width: 750px;
+  top: 200px;
+  /* bottom: 0px; */
+  left: 500px;
+}
+
+.Repos .Tabs a.active {
+  color: #888888;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Repos .Tabs a {
+  text-decoration: none;
+}
+
+.Repos .Tabs a {
+  color: #ff7744;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Repos ul li {
+  /* border: 1px solid; */
+  display: inline-block;
+  margin-right: 2em;
+}
+
+.Repos div ul li {
+  /* border: 1px solid; */
+  font-size: 18px;
+  font-weight: bold;
+  color: #00bbff;
+  display: block;
+}
+
+.Repos .Description {
+  font-size: 14px;
+  font-weight: lighter;
+  color: red;
+}
